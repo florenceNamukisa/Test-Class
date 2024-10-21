@@ -1,0 +1,24 @@
+{
+  "name": "test-pro",
+  "version": "1.0.0",
+  "main": "multiply.js",
+  "scripts": {
+    "test": "mocha"
+    
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Florence Namukisa",
+  "license": "ISC",
+  "description": "TDD Multiply Function Project",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "chai": "^5.1.1",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "mocha": "^10.7.3"
+  },
+  "dependencies": {
+    "assert": "^2.1.0"
+  }
+}
