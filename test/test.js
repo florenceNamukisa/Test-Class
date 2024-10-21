@@ -1,6 +1,7 @@
 
 
 import { expect } from 'chai';
+import { assert} from 'chai';
 import multiply from '../multiply.js';
 
 describe('Multiply Function Tests', function () {
@@ -26,5 +27,8 @@ it('should return 4 when multiplying 2 by 2', function () {
   
 
   it('should return 1035 when multiplying 23 by 45', function () {
-    expect(multiply(23, 45)).to.equal(23 * 45);
+    expect(multiply(23, 45)).to.equal(1035);
+  });
+  it('should return 1035 when multiplying 23 by 45', function () {
+    assert.equal(multiply(23, 45),1035);
   });
